@@ -1,0 +1,41 @@
+body{
+    background-image:url(9b48281a8029ad1eeb8f90648427a430.jpg);
+    background-size:cover;
+ }
+ tr{
+    color:white;
+ }
+ hr3{
+    color:white;
+ }
+ .menu {
+        text-align: center;
+        background-color: rgb(252, 252, 252);
+        font-size: 18px;
+        padding-top: 10pt;
+    }
+    .button {
+        background-color: pink;
+        padding: 5px;
+        border-radius:20px;
+        outline:none; 
+        width:180 px;
+        overflow:hiden;
+        margin:0;
+        background:none;
+        box-shadow:2px 2px 4px rgb(44, 62, 80,0.6),-2px-2px rgba(41,128,185,1);
+        text-decoration: none;
+    }
+    .button::after {
+        transition: all 1s ease;
+    }
+        z-id:-1;
+        border-radius:20px;
+        content:"";
+        top: 0;
+        left: 0;
+        position:absolute;
+        width:100%
+        height:100%
+        background-color: rgb(102, 27, 231);
+    }
